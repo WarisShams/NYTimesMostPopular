@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="NYTimesPopularTableViewCell" id="KGk-i7-Jjw" customClass="NYTimesPopularTableViewCell" customModule="NYTimesPopular" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="70"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="70"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K60-lp-OLw">
+                        <rect key="frame" x="10" y="10" width="394" height="19"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cdd-P2-eRm">
+                        <rect key="frame" x="10" y="39" width="269" height="21"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="te0-nU-cw8">
+                        <rect key="frame" x="289" y="39" width="120" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="120" id="N0e-vJ-bC0"/>
+                        </constraints>
+                        <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <inset key="imageEdgeInsets" minX="-10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <state key="normal" title="2021-08-13" image="calendar" catalog="system">
+                            <color key="titleColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="cdd-P2-eRm" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="0ft-QX-hJI"/>
+                    <constraint firstAttribute="trailing" secondItem="te0-nU-cw8" secondAttribute="trailing" constant="5" id="5dn-zm-aEz"/>
+                    <constraint firstAttribute="trailing" secondItem="K60-lp-OLw" secondAttribute="trailing" constant="10" id="6mD-Js-qbl"/>
+                    <constraint firstItem="cdd-P2-eRm" firstAttribute="top" secondItem="K60-lp-OLw" secondAttribute="bottom" constant="10" id="N3M-wr-gaX"/>
+                    <constraint firstAttribute="bottom" secondItem="cdd-P2-eRm" secondAttribute="bottom" constant="10" id="WdP-wp-MyI"/>
+                    <constraint firstItem="K60-lp-OLw" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="gHd-qC-thx"/>
+                    <constraint firstItem="te0-nU-cw8" firstAttribute="top" secondItem="cdd-P2-eRm" secondAttribute="top" id="ozr-lX-LhL"/>
+                    <constraint firstItem="K60-lp-OLw" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="pkk-hA-ian"/>
+                    <constraint firstItem="te0-nU-cw8" firstAttribute="leading" secondItem="cdd-P2-eRm" secondAttribute="trailing" constant="10" id="rQz-LT-3Yl"/>
+                    <constraint firstAttribute="bottom" secondItem="te0-nU-cw8" secondAttribute="bottom" constant="10" id="w9g-SZ-45N"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="btnDate" destination="te0-nU-cw8" id="bLG-Qr-Ka2"/>
+                <outlet property="lblAuthor" destination="cdd-P2-eRm" id="7nC-bu-ydk"/>
+                <outlet property="lblTitle" destination="K60-lp-OLw" id="gtc-nw-d44"/>
+            </connections>
+            <point key="canvasLocation" x="139" y="104"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="calendar" catalog="system" width="128" height="106"/>
+    </resources>
+</document>
