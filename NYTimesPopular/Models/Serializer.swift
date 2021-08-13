@@ -12,7 +12,3 @@ public protocol Serializer {
     init(fromDictionary dictionary: [String:Any])
     func toDictionary() -> [String:Any]
 }
-
-protocol NYMostPopularSelectionDelegate: AnyObject {
-    func mostPopularSelected(_ newFeed: NYTMostPopularFeeds.Result?)
-}

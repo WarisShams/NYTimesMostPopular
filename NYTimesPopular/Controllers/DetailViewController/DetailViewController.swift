@@ -35,20 +35,4 @@ class DetailViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
-    
-    // MARK: - Private Methods -
-    fileprivate func setupView() {
-        guard let feed = self.popularFeed,
-              let url = URL(string: feed.url) else {
-            return
-        }
-        self.webView.load(URLRequest(url: url))
-    }
-}
-
-// MARK: - NYMostPopularSelectionDelegate -
-extension DetailViewController: NYMostPopularSelectionDelegate {
-    func mostPopularSelected(_ newFeed: NYTMostPopularFeeds.Result?) {
-        popularFeed = newFeed
-    }
 }

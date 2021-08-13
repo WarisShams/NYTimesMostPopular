@@ -57,6 +57,27 @@
 		779B628826C67FF50052C435 /* NYTimesPopularTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 779B628426C67FF50052C435 /* NYTimesPopularTableViewCell.xib */; };
 		779B628926C67FF50052C435 /* NYTimesPopularTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 779B628426C67FF50052C435 /* NYTimesPopularTableViewCell.xib */; };
 		779B628A26C67FF50052C435 /* NYTimesPopularTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 779B628426C67FF50052C435 /* NYTimesPopularTableViewCell.xib */; };
+		77F6582926C6C57A00149A7A /* MasterViewControllerTableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F6582826C6C57A00149A7A /* MasterViewControllerTableViewExtension.swift */; };
+		77F6582A26C6C57A00149A7A /* MasterViewControllerTableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F6582826C6C57A00149A7A /* MasterViewControllerTableViewExtension.swift */; };
+		77F6582B26C6C57A00149A7A /* MasterViewControllerTableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F6582826C6C57A00149A7A /* MasterViewControllerTableViewExtension.swift */; };
+		77F6582D26C6C59D00149A7A /* SetupUIProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F6582C26C6C59D00149A7A /* SetupUIProtocol.swift */; };
+		77F6582E26C6C59D00149A7A /* SetupUIProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F6582C26C6C59D00149A7A /* SetupUIProtocol.swift */; };
+		77F6582F26C6C59D00149A7A /* SetupUIProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F6582C26C6C59D00149A7A /* SetupUIProtocol.swift */; };
+		77F6583126C6C60600149A7A /* MasterViewControllerSetupUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F6583026C6C60600149A7A /* MasterViewControllerSetupUI.swift */; };
+		77F6583226C6C60600149A7A /* MasterViewControllerSetupUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F6583026C6C60600149A7A /* MasterViewControllerSetupUI.swift */; };
+		77F6583326C6C60600149A7A /* MasterViewControllerSetupUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F6583026C6C60600149A7A /* MasterViewControllerSetupUI.swift */; };
+		77F6583526C6C67D00149A7A /* DetailViewControllerSetupUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F6583426C6C67D00149A7A /* DetailViewControllerSetupUI.swift */; };
+		77F6583626C6C67D00149A7A /* DetailViewControllerSetupUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F6583426C6C67D00149A7A /* DetailViewControllerSetupUI.swift */; };
+		77F6583726C6C67D00149A7A /* DetailViewControllerSetupUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F6583426C6C67D00149A7A /* DetailViewControllerSetupUI.swift */; };
+		77F6583926C6C6B200149A7A /* DetailViewControllerMostPopulerSelectionExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F6583826C6C6B200149A7A /* DetailViewControllerMostPopulerSelectionExtension.swift */; };
+		77F6583A26C6C6B200149A7A /* DetailViewControllerMostPopulerSelectionExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F6583826C6C6B200149A7A /* DetailViewControllerMostPopulerSelectionExtension.swift */; };
+		77F6583B26C6C6B200149A7A /* DetailViewControllerMostPopulerSelectionExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F6583826C6C6B200149A7A /* DetailViewControllerMostPopulerSelectionExtension.swift */; };
+		77F6583E26C6C72D00149A7A /* NYTimesPopularCellSetupUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F6583D26C6C72D00149A7A /* NYTimesPopularCellSetupUI.swift */; };
+		77F6583F26C6C72D00149A7A /* NYTimesPopularCellSetupUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F6583D26C6C72D00149A7A /* NYTimesPopularCellSetupUI.swift */; };
+		77F6584026C6C72D00149A7A /* NYTimesPopularCellSetupUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F6583D26C6C72D00149A7A /* NYTimesPopularCellSetupUI.swift */; };
+		77F6584226C6C7AD00149A7A /* NYMostPopularSelectionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F6584126C6C7AD00149A7A /* NYMostPopularSelectionDelegate.swift */; };
+		77F6584326C6C7AD00149A7A /* NYMostPopularSelectionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F6584126C6C7AD00149A7A /* NYMostPopularSelectionDelegate.swift */; };
+		77F6584426C6C7AD00149A7A /* NYMostPopularSelectionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F6584126C6C7AD00149A7A /* NYMostPopularSelectionDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,6 +122,13 @@
 		779B627C26C67FD90052C435 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		779B628326C67FF50052C435 /* NYTimesPopularTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYTimesPopularTableViewCell.swift; sourceTree = "<group>"; };
 		779B628426C67FF50052C435 /* NYTimesPopularTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NYTimesPopularTableViewCell.xib; sourceTree = "<group>"; };
+		77F6582826C6C57A00149A7A /* MasterViewControllerTableViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewControllerTableViewExtension.swift; sourceTree = "<group>"; };
+		77F6582C26C6C59D00149A7A /* SetupUIProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupUIProtocol.swift; sourceTree = "<group>"; };
+		77F6583026C6C60600149A7A /* MasterViewControllerSetupUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewControllerSetupUI.swift; sourceTree = "<group>"; };
+		77F6583426C6C67D00149A7A /* DetailViewControllerSetupUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewControllerSetupUI.swift; sourceTree = "<group>"; };
+		77F6583826C6C6B200149A7A /* DetailViewControllerMostPopulerSelectionExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewControllerMostPopulerSelectionExtension.swift; sourceTree = "<group>"; };
+		77F6583D26C6C72D00149A7A /* NYTimesPopularCellSetupUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYTimesPopularCellSetupUI.swift; sourceTree = "<group>"; };
+		77F6584126C6C7AD00149A7A /* NYMostPopularSelectionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYMostPopularSelectionDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,8 +211,8 @@
 		777E911426C46775008619CE /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				777E915026C563EC008619CE /* MasterViewController.swift */,
-				777E915826C57059008619CE /* DetailViewController.swift */,
+				77F6582726C6C55300149A7A /* DetailViewController */,
+				77F6582626C6C54300149A7A /* MasterViewController */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -220,6 +248,8 @@
 			children = (
 				777E913C26C53227008619CE /* Serializer.swift */,
 				777E914426C532A5008619CE /* NYTMostPopularFeeds.swift */,
+				77F6582C26C6C59D00149A7A /* SetupUIProtocol.swift */,
+				77F6584126C6C7AD00149A7A /* NYMostPopularSelectionDelegate.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -239,8 +269,7 @@
 		779B627726C67FD90052C435 /* UITableViewCells */ = {
 			isa = PBXGroup;
 			children = (
-				779B628326C67FF50052C435 /* NYTimesPopularTableViewCell.swift */,
-				779B628426C67FF50052C435 /* NYTimesPopularTableViewCell.xib */,
+				77F6583C26C6C71100149A7A /* NYTimesPopularCell */,
 			);
 			path = UITableViewCells;
 			sourceTree = "<group>";
@@ -252,6 +281,36 @@
 				779B627B26C67FD90052C435 /* Main.storyboard */,
 			);
 			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		77F6582626C6C54300149A7A /* MasterViewController */ = {
+			isa = PBXGroup;
+			children = (
+				777E915026C563EC008619CE /* MasterViewController.swift */,
+				77F6582826C6C57A00149A7A /* MasterViewControllerTableViewExtension.swift */,
+				77F6583026C6C60600149A7A /* MasterViewControllerSetupUI.swift */,
+			);
+			path = MasterViewController;
+			sourceTree = "<group>";
+		};
+		77F6582726C6C55300149A7A /* DetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				777E915826C57059008619CE /* DetailViewController.swift */,
+				77F6583426C6C67D00149A7A /* DetailViewControllerSetupUI.swift */,
+				77F6583826C6C6B200149A7A /* DetailViewControllerMostPopulerSelectionExtension.swift */,
+			);
+			path = DetailViewController;
+			sourceTree = "<group>";
+		};
+		77F6583C26C6C71100149A7A /* NYTimesPopularCell */ = {
+			isa = PBXGroup;
+			children = (
+				779B628326C67FF50052C435 /* NYTimesPopularTableViewCell.swift */,
+				779B628426C67FF50052C435 /* NYTimesPopularTableViewCell.xib */,
+				77F6583D26C6C72D00149A7A /* NYTimesPopularCellSetupUI.swift */,
+			);
+			path = NYTimesPopularCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -395,14 +454,21 @@
 			files = (
 				777E914926C548D0008619CE /* APIHelper.swift in Sources */,
 				777E915526C566B5008619CE /* Toast.swift in Sources */,
+				77F6582926C6C57A00149A7A /* MasterViewControllerTableViewExtension.swift in Sources */,
+				77F6584226C6C7AD00149A7A /* NYMostPopularSelectionDelegate.swift in Sources */,
 				779B628526C67FF50052C435 /* NYTimesPopularTableViewCell.swift in Sources */,
 				777E913926C531D2008619CE /* Extensions.swift in Sources */,
+				77F6583E26C6C72D00149A7A /* NYTimesPopularCellSetupUI.swift in Sources */,
 				777E915926C57059008619CE /* DetailViewController.swift in Sources */,
 				777E915126C563EC008619CE /* MasterViewController.swift in Sources */,
+				77F6583526C6C67D00149A7A /* DetailViewControllerSetupUI.swift in Sources */,
 				777E913D26C53227008619CE /* Serializer.swift in Sources */,
+				77F6583926C6C6B200149A7A /* DetailViewControllerMostPopulerSelectionExtension.swift in Sources */,
 				777E912926C46775008619CE /* AppDelegate.swift in Sources */,
+				77F6583126C6C60600149A7A /* MasterViewControllerSetupUI.swift in Sources */,
 				777E914526C532A5008619CE /* NYTMostPopularFeeds.swift in Sources */,
 				777E912C26C46775008619CE /* SceneDelegate.swift in Sources */,
+				77F6582D26C6C59D00149A7A /* SetupUIProtocol.swift in Sources */,
 				777E913526C531C8008619CE /* Constants.swift in Sources */,
 				777E914D26C54F17008619CE /* NYTPopulerServices.swift in Sources */,
 			);
@@ -412,17 +478,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77F6583F26C6C72D00149A7A /* NYTimesPopularCellSetupUI.swift in Sources */,
+				77F6583626C6C67D00149A7A /* DetailViewControllerSetupUI.swift in Sources */,
 				777E915A26C57059008619CE /* DetailViewController.swift in Sources */,
 				779B628626C67FF50052C435 /* NYTimesPopularTableViewCell.swift in Sources */,
+				77F6583226C6C60600149A7A /* MasterViewControllerSetupUI.swift in Sources */,
+				77F6582A26C6C57A00149A7A /* MasterViewControllerTableViewExtension.swift in Sources */,
 				777E915626C566B5008619CE /* Toast.swift in Sources */,
 				777E913626C531C8008619CE /* Constants.swift in Sources */,
 				777E914E26C54F17008619CE /* NYTPopulerServices.swift in Sources */,
 				777E913A26C531D2008619CE /* Extensions.swift in Sources */,
 				777E912A26C46775008619CE /* AppDelegate.swift in Sources */,
 				777E914626C532A5008619CE /* NYTMostPopularFeeds.swift in Sources */,
+				77F6582E26C6C59D00149A7A /* SetupUIProtocol.swift in Sources */,
 				777E913E26C53227008619CE /* Serializer.swift in Sources */,
 				777E915226C563F0008619CE /* MasterViewController.swift in Sources */,
 				777E90FC26C45F68008619CE /* NYTimesPopularTests.swift in Sources */,
+				77F6583A26C6C6B200149A7A /* DetailViewControllerMostPopulerSelectionExtension.swift in Sources */,
+				77F6584326C6C7AD00149A7A /* NYMostPopularSelectionDelegate.swift in Sources */,
 				777E914A26C548D0008619CE /* APIHelper.swift in Sources */,
 				777E912D26C46775008619CE /* SceneDelegate.swift in Sources */,
 			);
@@ -432,17 +505,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77F6584026C6C72D00149A7A /* NYTimesPopularCellSetupUI.swift in Sources */,
+				77F6583726C6C67D00149A7A /* DetailViewControllerSetupUI.swift in Sources */,
 				777E915B26C57059008619CE /* DetailViewController.swift in Sources */,
 				779B628726C67FF50052C435 /* NYTimesPopularTableViewCell.swift in Sources */,
+				77F6583326C6C60600149A7A /* MasterViewControllerSetupUI.swift in Sources */,
+				77F6582B26C6C57A00149A7A /* MasterViewControllerTableViewExtension.swift in Sources */,
 				777E915726C566B5008619CE /* Toast.swift in Sources */,
 				777E913726C531C8008619CE /* Constants.swift in Sources */,
 				777E914F26C54F17008619CE /* NYTPopulerServices.swift in Sources */,
 				777E913B26C531D2008619CE /* Extensions.swift in Sources */,
 				777E912B26C46775008619CE /* AppDelegate.swift in Sources */,
 				777E914726C532A5008619CE /* NYTMostPopularFeeds.swift in Sources */,
+				77F6582F26C6C59D00149A7A /* SetupUIProtocol.swift in Sources */,
 				777E913F26C53227008619CE /* Serializer.swift in Sources */,
 				777E915326C563F1008619CE /* MasterViewController.swift in Sources */,
 				777E910726C45F68008619CE /* NYTimesPopularUITests.swift in Sources */,
+				77F6583B26C6C6B200149A7A /* DetailViewControllerMostPopulerSelectionExtension.swift in Sources */,
+				77F6584426C6C7AD00149A7A /* NYMostPopularSelectionDelegate.swift in Sources */,
 				777E914B26C548D0008619CE /* APIHelper.swift in Sources */,
 				777E912E26C46775008619CE /* SceneDelegate.swift in Sources */,
 			);

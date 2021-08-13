@@ -19,7 +19,7 @@ class NYTimesPopularTableViewCell: UITableViewCell {
     // MARK: - Variables -
     var cellData: NYTMostPopularFeeds.Result! {
         didSet {
-            updateUI()
+            setupView()
         }
     }
     
@@ -36,11 +36,5 @@ class NYTimesPopularTableViewCell: UITableViewCell {
         super.setSelected(selected, animated: animated)
 
         // Configure the view for the selected state
-    }
-    
-    fileprivate func updateUI() {
-        lblTitle.text = cellData.title
-        lblAuthor.text = cellData.byline
-        btnDate.setTitle(cellData.publishedDate, for: .normal)
     }
 }
