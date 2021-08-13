@@ -57,9 +57,6 @@
 		779B628826C67FF50052C435 /* NYTimesPopularTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 779B628426C67FF50052C435 /* NYTimesPopularTableViewCell.xib */; };
 		779B628926C67FF50052C435 /* NYTimesPopularTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 779B628426C67FF50052C435 /* NYTimesPopularTableViewCell.xib */; };
 		779B628A26C67FF50052C435 /* NYTimesPopularTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 779B628426C67FF50052C435 /* NYTimesPopularTableViewCell.xib */; };
-		779B629126C686380052C435 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 779B628C26C686380052C435 /* bg.png */; };
-		779B629226C686380052C435 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 779B628C26C686380052C435 /* bg.png */; };
-		779B629326C686380052C435 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 779B628C26C686380052C435 /* bg.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -104,7 +101,6 @@
 		779B627C26C67FD90052C435 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		779B628326C67FF50052C435 /* NYTimesPopularTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYTimesPopularTableViewCell.swift; sourceTree = "<group>"; };
 		779B628426C67FF50052C435 /* NYTimesPopularTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NYTimesPopularTableViewCell.xib; sourceTree = "<group>"; };
-		779B628C26C686380052C435 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,7 +211,6 @@
 			isa = PBXGroup;
 			children = (
 				777E911F26C46775008619CE /* Assets.xcassets */,
-				779B628C26C686380052C435 /* bg.png */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -362,7 +357,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				779B629126C686380052C435 /* bg.png in Resources */,
 				779B628026C67FD90052C435 /* Main.storyboard in Resources */,
 				777E912F26C46775008619CE /* Assets.xcassets in Resources */,
 				779B627D26C67FD90052C435 /* LaunchScreen.storyboard in Resources */,
@@ -374,7 +368,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				779B629226C686380052C435 /* bg.png in Resources */,
 				779B628126C67FD90052C435 /* Main.storyboard in Resources */,
 				777E913026C46775008619CE /* Assets.xcassets in Resources */,
 				779B627E26C67FD90052C435 /* LaunchScreen.storyboard in Resources */,
@@ -386,7 +379,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				779B629326C686380052C435 /* bg.png in Resources */,
 				779B628226C67FD90052C435 /* Main.storyboard in Resources */,
 				777E913126C46775008619CE /* Assets.xcassets in Resources */,
 				779B627F26C67FD90052C435 /* LaunchScreen.storyboard in Resources */,

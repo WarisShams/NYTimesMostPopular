@@ -16,27 +16,28 @@
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg.png" highlightedImage="bg.png" translatesAutoresizingMaskIntoConstraints="NO" id="OOY-tK-ejt">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jvD-sN-FD0">
                                 <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
-                            </imageView>
+                                <state key="normal" image="BGImage"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="OOY-tK-ejt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="53B-sG-h18"/>
-                            <constraint firstItem="OOY-tK-ejt" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="6wQ-D4-8Va"/>
-                            <constraint firstAttribute="bottom" secondItem="OOY-tK-ejt" secondAttribute="bottom" id="Gxk-Me-cAb"/>
-                            <constraint firstItem="OOY-tK-ejt" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="wOR-5C-TjD"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jvD-sN-FD0" secondAttribute="trailing" id="1hM-Ma-nSy"/>
+                            <constraint firstItem="jvD-sN-FD0" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="DgW-z3-BFn"/>
+                            <constraint firstItem="jvD-sN-FD0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="cYc-X3-M2q"/>
+                            <constraint firstAttribute="bottom" secondItem="jvD-sN-FD0" secondAttribute="bottom" id="gk6-ma-dnN"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+            <point key="canvasLocation" x="51.86915887850467" y="374.51403887688986"/>
         </scene>
     </scenes>
     <resources>
-        <image name="bg.png" width="3726" height="8064"/>
+        <image name="BGImage" width="2048" height="2048"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
